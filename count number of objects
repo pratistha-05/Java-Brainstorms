@@ -1,0 +1,26 @@
+class count { 
+      static int noOfObjects = 0; 
+
+    { 
+        noOfObjects += 1; 
+    } 
+
+    public count() 
+    { 
+    } 
+    public count(int n) 
+    { 
+    } 
+    public count(String s) 
+    { 
+    } 
+  
+    public static void main(String args[]) 
+    { 
+        count t1 = new count(); 
+        count t2 = new count(5); 
+        count t3 = new count("riya"); 
+ 
+        System.out.println(count.noOfObjects); 
+    } 
+} 
